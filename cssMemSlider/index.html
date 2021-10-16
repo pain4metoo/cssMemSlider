@@ -13,75 +13,58 @@
     />
     <link rel="stylesheet" href="meme.css" />
   </head>
+
   <body>
     <div class="container">
       <div class="slider">
         <div class="slider__inner">
           <input
-            class="slider__radio"
+            class="slider__radio slider__radio-1"
+            id="item-1"
             name="slides"
             type="radio"
-            id="item-1"
             checked
           />
-          <img
-            class="slider__img img-1 slider__img__anim"
-            src="./assets/slider-1.jpg"
-            alt="image"
-          />
-          <p class="slider__text text-1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <img class="slider__img" src="./assets/slider-1.jpg" alt="image" />
+          <p class="slider__text">
+            Коротко о том, как проходит выдача тасков в RS School
           </p>
         </div>
 
         <div class="slider__inner">
-          <input class="slider__radio" name="slides" type="radio" id="item-2" />
-          <img
-            class="slider__img img-2 slider__img__anim"
-            src="./assets/slider-2.jpg"
-            alt="image"
-          />
-          <p class="slider__text text-2">
-            Corem ipsum dolor sit amet consectetur adipisicing elit.
+          <input class="slider__radio" id="item-2" name="slides" type="radio" />
+          <img class="slider__img" src="./assets/slider-2.jpg" alt="image" />
+          <p class="slider__text">
+            Когда просишь помощи по таску у активиста Ирины
           </p>
         </div>
 
         <div class="slider__inner">
-          <input class="slider__radio" name="slides" type="radio" id="item-3" />
-          <img
-            class="slider__img img-3 slider__img__anim"
-            src="./assets/slider-3.jpg"
-            alt="image"
-          />
-          <p class="slider__text text-3">
-            Borem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
+          <input class="slider__radio" id="item-3" name="slides" type="radio" />
+          <img class="slider__img" src="./assets/slider-3.jpg" alt="image" />
+          <p class="slider__text">Немного о списывание задач на курсах</p>
         </div>
 
         <div class="slider__inner">
-          <input class="slider__radio" name="slides" type="radio" id="item-4" />
-          <img
-            class="slider__img img-4 slider__img__anim"
-            src="./assets/slider-4.jpg"
-            alt="image"
-          />
-          <p class="slider__text text-4">
-            Aorem ipsum dolor sit amet consectetur adipisicing elit.
+          <input class="slider__radio" id="item-4" name="slides" type="radio" />
+          <img class="slider__img" src="./assets/slider-4.jpg" alt="image" />
+          <p class="slider__text">
+            Когда пытаешься найти ответы по тесту Media Queries
           </p>
         </div>
 
         <div class="slider__controls__block">
           <label class="slider__label" for="item-1">
-            <span class="slider__dot"></span>
+            <span class="slider__dot dot__change-1"></span>
           </label>
           <label class="slider__label" for="item-2">
-            <span class="slider__dot"></span>
+            <span class="slider__dot dot__change-2"></span>
           </label>
           <label class="slider__label" for="item-3">
-            <span class="slider__dot"></span>
+            <span class="slider__dot dot__change-3"></span>
           </label>
           <label class="slider__label" for="item-4">
-            <span class="slider__dot"></span>
+            <span class="slider__dot dot__change-4"></span>
           </label>
         </div>
       </div>
