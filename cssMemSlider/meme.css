@@ -13,7 +13,9 @@ body {
   font-size: 1.1rem;
   line-height: 1.2rem;
   font-weight: 400;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url(../cssMemSlider/assets/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -30,6 +32,7 @@ body {
   overflow: hidden;
   padding: 1.5rem 1.5rem 0rem 1.5rem;
   overflow: hidden;
+  background-color: rgba(15, 15, 15, 0.8);
 }
 
 .slider__inner {
