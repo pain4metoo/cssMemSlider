@@ -13,8 +13,8 @@ body {
   font-size: 1.1rem;
   line-height: 1.2rem;
   font-weight: 400;
-  background-image: url(../cssMemSlider/assets/bg.jpg);
-  background-size: cover;
+  background-image: url(./assets/bg.jpg);
+  background-size: inherit;
   background-repeat: no-repeat;
 }
 
